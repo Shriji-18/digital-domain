@@ -1,0 +1,62 @@
+/* GENERAL STYLES */
+body {
+    font-family: Arial, sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+/* MARQUEE TEXT */
+.marquee-container {
+    background-color: #f8c102;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?university,campus') no-repeat center center/cover;
+    padding: 150px 20px;
+}
+
+/* PROGRAM CARDS */
+.program-card {
+    transition: transform 0.3s ease-in-out;
+}
+.program-card:hover {
+    transform: translateY(-10px) scale(1.05);
+}
+
+/* NIGHT MODE */
+.night-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+.night-mode .bg-light {
+    background-color: #222 !important;
+}
+.night-mode .card {
+    background-color: #333;
+    color: white;
+}
+img{
+    height:128px !important
+}
+
+/* CHATBOT BUTTON */
+#chatbot-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.display-4{
+    color: black;
+}
